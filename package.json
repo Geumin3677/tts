@@ -1,0 +1,24 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.2.0",
+    "@discordjs/voice": "^0.16.0",
+    "discord-api-types": "^0.37.11",
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3",
+    "google-spreadsheet": "^3.3.0",
+    "google-tts-api": "^2.0.2",
+    "libsodium-wrappers": "^0.7.11",
+    "nodemon": "^2.0.20"
+  }
+}
